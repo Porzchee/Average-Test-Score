@@ -1,6 +1,3 @@
-// Chapter 9, Programming Challenge 2: Test Scores #1
-// Your Name: Catherine Yousefi
-// Date: 3.20.2025
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -84,7 +81,6 @@ int main()
 // array pointed to by the score parameter into ascending *
 // order. The size parameter holds the number of elements.*
 // ********************************************************
-// Code the sort function here
 void sort(double* scores, int size)
 {
    for (int i = 0; i < size - 1; i++)
@@ -110,7 +106,6 @@ void sort(double* scores, int size)
 // the scores parameter. The parameter numScores holds    *
 // the number of elements in the array.                   *
 // ********************************************************
-// Code the average function here
 double average(double* scores, int numScores)
 {
    double total = 0.0;
